@@ -1,0 +1,32 @@
+[
+  {
+    "id": "f001",
+    "farmerName": "John Mwangi",
+    "crop": "Tomatoes",
+    "quantity": 120,
+    "price": 45,
+    "location": "Kirinyaga",
+    "phone": "+254712345678",
+    "image": "assets/images/farmer1.jpg"
+  },
+  {
+    "id": "f002",
+    "farmerName": "Grace W.",
+    "crop": "Kales",
+    "quantity": 80,
+    "price": 30,
+    "location": "Kiambu",
+    "phone": "+254700111222",
+    "image": "assets/images/farmer2.jpg"
+  },
+  {
+    "id": "f003",
+    "farmerName": "Peter Otieno",
+    "crop": "Maize",
+    "quantity": 500,
+    "price": 20,
+    "location": "Kisumu",
+    "phone": "+254722333444",
+    "image": "assets/images/farmer3.jpg"
+  }
+]

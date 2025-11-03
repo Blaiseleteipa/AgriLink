@@ -1,0 +1,88 @@
+:root {
+    /* Define the new, more vibrant project color palette */
+    --agri-primary: #00A86B; /* Vibrant Jade/Emerald for action */
+    --agri-dark: #004D36;   /* Dark contrast for background/text */
+    --agri-accent: #FFC107; /* Soft Mango/Yellow for highlights and SDGs */
+    --agri-light: #F5FFF9;  /* Very light background */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--agri-light);
+    color: #333;
+    transition: background-color 0.3s;
+}
+
+/* --- Navigation Styling --- */
+.navbar-agri {
+    background-color: var(--agri-dark);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-agri .nav-link {
+    color: white;
+    font-weight: 500;
+    transition: color 0.2s, background-color 0.2s;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-agri .nav-link:hover {
+    color: var(--agri-accent) !important;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Active Page Indicator (much stronger visual cue) */
+.navbar-agri .nav-link.active {
+    color: white !important;
+    background-color: var(--agri-primary);
+    font-weight: 700;
+    box-shadow: 0 0 10px rgba(0, 168, 107, 0.5);
+}
+
+/* --- General UI Components --- */
+.agri-btn {
+    background-color: var(--agri-primary);
+    border-color: var(--agri-primary);
+    color: white;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    transition: background-color 0.2s, transform 0.1s, box-shadow 0.2s;
+}
+.agri-btn:hover {
+    background-color: #008f59; /* Darker primary */
+    border-color: #008f59;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 10px rgba(0, 168, 107, 0.3);
+}
+
+/* Card Styling for Produce Listings */
+.agri-card {
+    border-left: 5px solid var(--agri-primary);
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: white;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.agri-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 25px rgba(0, 168, 107, 0.3);
+}
+
+/* Headings and Text Colors */
+.text-agri-dark {
+    color: var(--agri-dark) !important;
+}
+
+.text-agri-primary {
+    color: var(--agri-primary) !important;
+}
+
+/* SDG Accent Badge */
+.sdg-badge {
+    color: var(--agri-dark);
+    background-color: #FFF8E1; /* Lightened accent background */
+    border: 1px solid var(--agri-accent);
+}
